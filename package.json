@@ -1,0 +1,36 @@
+{
+  "name": "@lijiaming816/tracksmith",
+  "version": "1.0.0",
+  "description": "一个简单的埋点sdk",
+  "homepage": "https://github.com/lijiaming123/tracksmith#readme",
+  "bugs": {
+    "url": "https://github.com/lijiaming123/tracksmith/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijiaming123/tracksmith.git"
+  },
+  "keywords": [
+    "track",
+    "埋点",
+    "sdk"
+  ],
+  "license": "ISC",
+  "author": "lijiaming",
+  "main": "dist/tracker.cjs.js",
+  "module": "dist/tracker.esm.js",
+  "types": "dist/tracker.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "@rollup/plugin-babel": "^7.0.0",
+    "rollup": "^4.60.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
